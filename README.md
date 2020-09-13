@@ -1,5 +1,12 @@
-# GOTimeTracker
+# Go Time Tracker
 
-It's still developing.
+Go Time Track is Google Chrome Extension for time tracking.
 
-Read develop branch.
+## Install Chrome Extension
+
+https://chrome.google.com/webstore/detail/...
+
+# CHANGELOG
+
+1.0.0
+- Initial version
