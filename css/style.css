@@ -1,0 +1,155 @@
+html {
+    width: 500px;
+    max-height: 800px;
+}
+
+body {
+    font-family: Helvetica, Tahoma, sans-serif;
+    font-size: 11px;
+    padding: 0;
+    margin: 0 auto;
+    background: #fff;
+    overflow: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+/* header
+----------------------------------------------------------------------------- */
+
+.header {
+    padding: 0.8em 1em;
+    overflow: auto;
+    color: #AAA;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header BUTTON {
+    _background: rgb(51, 103, 214);
+    background: #FFF;
+    color: #AAA;
+    height: 34px;
+    border: 1px solid #AAA;
+}
+
+.header .create {
+    background: transparent url(../img/new.png) 50% 50% no-repeat;
+    display: block;
+    width: 34px;
+}
+
+.header .today-text {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* forms and inputs
+----------------------------------------------------------------------------- */
+
+.modal {
+
+}
+
+
+/* forms and inputs
+----------------------------------------------------------------------------- */
+
+input[type=text] {
+    border: solid 1px #D6D6BE;
+    background-color: #fcfff4;
+    padding: 3px 5px;
+    width: 96%;
+    font-size: 16px;
+    -webkit-border-radius: 2px;
+    margin: 0 auto;
+    display: block;
+}
+
+input[type=text]:focus {
+    border: solid 1px #fff286;
+    background-color: #fff;
+}
+
+/* content
+----------------------------------------------------------------------------- */
+
+.content {
+    overflow: hidden;
+    text-align: center !important;
+}
+
+.content p {
+    margin: 0;
+    padding: 10px;
+}
+
+/* item
+----------------------------------------------------------------------------- */
+
+.item {
+    text-align: left;
+    border-bottom: solid 1px #eee;
+    padding: 14px 12px!important;
+    position: relative;
+    background: #fff;
+    display: block;
+    overflow: hidden;
+}
+
+.item a.power {
+    right: 3px;
+    width: 72px;
+    padding-right: 16px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/play.png) right center no-repeat;
+    background-origin: content-box;
+}
+
+.item a.running {
+    background-image: url(../img/pause.png);
+}
+
+.item span.timer {
+    position: absolute;
+    right: 50px;
+    top: 28px;
+    font-size: 17px;
+}
+
+p.running {
+    background-color: #eaffd6;
+}
+
+
+/* footer
+----------------------------------------------------------------------------- */
+
+.footer {
+    background: #FFF;
+    color: #bbb;
+    margin: 0;
+    padding: 5px;
+}
+
+.footer a {
+    color: #bbb;
+}
+
+.footer a:hover {
+    color: #333;
+}
+
+.footer span#total-time {
+    float: right;
+}
